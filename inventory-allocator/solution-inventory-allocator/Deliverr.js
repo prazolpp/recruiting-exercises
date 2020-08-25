@@ -24,7 +24,7 @@ class InventoryAllocator {
         let inventoryNamesArr = this.getInventoryNamesArr();
         let usedWarehouses = {};
 
-        this.checkeachWarehouseForItem = (item) => {
+        this.checkEachWarehouseForItem = (item) => {
             inventoryItemsArr.forEach((inventory, index) => {
                 
                 let currentInventory = inventoryNamesArr[index];
@@ -52,7 +52,7 @@ class InventoryAllocator {
         }
     
         Object.keys(this.order).forEach((item) => {
-            this.checkeachWarehouseForItem(item);
+            this.checkEachWarehouseForItem(item);
         })
         return convertObjectToArray(usedWarehouses);
     }
