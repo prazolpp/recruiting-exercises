@@ -1,4 +1,4 @@
-## My Solution To Create Cheapest Inventor Allocator
+## My Solution To Create Cheapest Inventory Allocator
 
 ### Installing Dependencies
 
